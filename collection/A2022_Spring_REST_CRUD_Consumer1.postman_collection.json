@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "e9d5521a-f2d7-42fd-b3c3-f7ab30df8643",
+		"name": "A2022_Spring_REST_CRUD_Consumer1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29781038"
+	},
+	"item": [
+		{
+			"name": "GET All Students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_REST_CRUD_Consumer1/all/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_REST_CRUD_Consumer1",
+						"all",
+						"students"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
